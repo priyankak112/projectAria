@@ -1,0 +1,15 @@
+langgraph
+langchain
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+langchain-community pypdf
+sentence-transformers
+google-generativeai
+chromadb
+python-dotenv
+pydantic
+mermaid-py
+streamlit>=1.28.0
+streamlit-chat
+streamlit-option-menu
