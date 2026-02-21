@@ -1,0 +1,4 @@
+.env
+corpAI/
+__pycache__/
+*.pyc
