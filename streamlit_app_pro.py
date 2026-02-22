@@ -11,7 +11,7 @@ import pandas as pd
 # ============================================================================
 
 st.set_page_config(
-    page_title="🤖 CorpAssist AI Pro",
+    page_title="🤖 ARIA AI Pro",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -105,7 +105,7 @@ st.markdown("""
 # ============================================================================
 
 with st.sidebar:
-    st.title("🎛️ CorpAssist AI Control Panel")
+    st.title("🎛️ ARIA AI Control Panel")
     
     # User Info
     with st.expander("👤 User Profile", expanded=False):
@@ -155,7 +155,7 @@ with st.sidebar:
     
     # Info
     st.info("""
-    **CorpAssist AI** helps employees with:
+    **ARIA AI** helps employees with:
     - 📚 Company knowledge retrieval
     - 🎫 IT ticket creation
     - 🚨 Human escalations
@@ -172,7 +172,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["💬 Chat", "📊 Analytics", "🎫 Tickets",
 # ============================================================================
 
 with tab1:
-    st.title("💬 Chat with CorpAssist AI")
+    st.title("💬 Chat with ARIA AI")
     st.markdown("*Ask questions, report issues, or request assistance*")
     
     st.divider()
@@ -197,7 +197,7 @@ with tab1:
                     
                     st.markdown(f"""
                         <div class='chat-message {msg_class}'>
-                            <strong>{icon} CorpAssist:</strong>
+                            <strong>{icon} ARIA AI:</strong>
                             <div style='margin-top: 0.5rem;'>{msg['content']}</div>
                         </div>
                     """, unsafe_allow_html=True)
@@ -400,7 +400,7 @@ with tab4:
     st.title("❓ Help & Documentation")
     
     st.markdown("""
-    ### How to use CorpAssist AI
+    ### How to use ARIA AI
     
     📚 Knowledge Queries
     Ask about company policies, handbook information, or general knowledge.
