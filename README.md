@@ -41,8 +41,8 @@ Intent Classification (Gemini)
  ↓
 LangGraph Orchestrator
  ├── Knowledge Agent (RAG + ChromaDB)
- ├── Ticket Agent (SQLite via MCP)
- ├── Escalation Agent
- └── Notification Agent (Gmail via MCP)
+ ├── IT Agent (SQLite via MCP,Gmail via custom MCP)
+ ├── Escalation Agent(Gmail via MCP,sqlite via custom MCP)
  ↓
 Response + Ticket Tracking
+⭐ If you found this project interesting, feel free to star the repo and connect!
